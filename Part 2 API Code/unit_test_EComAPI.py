@@ -1,6 +1,2 @@
-def func(x):
-    return x + 1
-	
-def test_answer():
-    assert func(3) == 5
+THIS WILL NOT BE EXECUTED SINCE FILE NAME IS NOT ENDING WITH _Test
 
