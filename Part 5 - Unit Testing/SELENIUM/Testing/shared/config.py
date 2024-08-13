@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 SmallWait = 5
-commonPath = "D:\\Madhura\\Codegym\\Testing"
+commonPath = "E:\\12)DevOps\\SELENIUM\\Testing"
 
 def createDriver():
     driverPath = commonPath + "\WebDrivers\chromedriver.exe"
