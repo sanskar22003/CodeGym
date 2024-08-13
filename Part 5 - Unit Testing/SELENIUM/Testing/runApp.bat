@@ -5,8 +5,8 @@ set mytimestamp=%datetime:~0,4%%datetime:~4,2%%datetime:~6,2%-%time:~0,2%%time:~
 echo %mytimestamp%
 
 set reportStyle="Html"
-set commonPath="E:\12) DevOps\SELENIUM\Testing"
+set commonPath="E:\12)DevOps\SELENIUM\Testing"
 set pythonPath="F:\python"
 
 %pythonPath%\python -m pip install flask
-%pythonPath%\python "E:\12) DevOps\CarbonPipeline\CarbonPipeline\SampleCode\app.py" 
+%pythonPath%\python "E:\12)DevOps\CarbonPipeline\CarbonPipeline\SampleCode\app.py" 
