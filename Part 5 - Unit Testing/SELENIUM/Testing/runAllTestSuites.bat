@@ -5,7 +5,7 @@ set mytimestamp=%datetime:~0,4%%datetime:~4,2%%datetime:~6,2%-%time:~0,2%%time:~
 echo %mytimestamp%
 
 set reportStyle="Html"
-set commonPath="C:\ProgramData\Jenkins\.jenkins\workspace\CodeGym\\Part 5 - Unit Testing\SELENIUM\Testing"
+set commonPath="E:\12)DevOps\SELENIUM\Testing"
 set pythonPath="F:\python"
 
 %pythonPath%\python %commonPath%\tsReport.py %reportStyle% %commonPath%
