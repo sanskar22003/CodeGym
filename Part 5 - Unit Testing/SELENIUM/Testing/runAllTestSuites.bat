@@ -6,6 +6,6 @@ echo %mytimestamp%
 
 set reportStyle="Html"
 set commonPath="E:\\12)DevOps\\SELENIUM\\Testing"
-set pythonPath="F:\python"
+set pythonPath="F:\\python"
 
 %pythonPath%\python %commonPath%\\tsReport.py %reportStyle% %commonPath%
