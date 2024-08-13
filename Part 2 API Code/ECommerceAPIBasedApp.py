@@ -19,7 +19,7 @@ def get_products():
     return jsonify(products)
 
 def test_total_products():
-    product = next((p for p in products if p['id'] == 3), None)
+    product = next((p for p in products if p['id'] == 4), None)
     if product:
         assert True
     else:
