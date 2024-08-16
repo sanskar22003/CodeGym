@@ -30,11 +30,11 @@ pipeline {
         stage('Stage 3: Run SELENIUM Web App TestCases') {
             steps {
                 echo 'Running Selenium TestCases...'
-             //  dir("${env.REPO_PATH}") {
-             //       catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
-             //           bat "${env.SELENIUM_PATH}"
-             //       }
-             //   }
+                dir("${env.REPO_PATH}") {
+                    catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                        bat "${env.PYTEST_PATH}" pytestsample.py
+                    }
+                }
             }
         }
 		stage('Stage 4: Build Docker Image') {
