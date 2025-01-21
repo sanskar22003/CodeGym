@@ -1,7 +1,3 @@
-Flask
-codecarbon
-psutil
-pytest
-html-testRunner
-pymongo
-selenium
+panda=3.2.1 
+panda=3.2.2 
+plotly 
